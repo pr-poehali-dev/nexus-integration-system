@@ -19,19 +19,24 @@ export default function Hero() {
         className="absolute inset-0 w-full h-full"
       >
         <img
-          src="/images/mountain-landscape.jpg"
-          alt="Mountain landscape"
+          src="https://cdn.poehali.dev/projects/83f08692-5044-4491-bc76-a4f6a0f7f436/files/b647a1f2-ebcf-460a-a7cf-ec1b154473d3.jpg"
+          alt="Music Bingo game night"
           className="w-full h-full object-cover"
         />
+        <div className="absolute inset-0 bg-black/50" />
       </motion.div>
 
       <div className="relative z-10 text-center text-white">
+        <p className="text-sm md:text-base uppercase tracking-widest mb-4 opacity-80">Игра для компании</p>
         <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6">
-          ОТКРОЙ
+          MUSIC BINGO
         </h1>
-        <p className="text-lg md:text-xl max-w-2xl mx-auto px-6 opacity-90">
-          Исследуй границы дизайна с иммерсивным параллакс-эффектом
+        <p className="text-lg md:text-xl max-w-2xl mx-auto px-6 opacity-90 mb-8">
+          Слушай отрывки песен, угадывай исполнителей и зачёркивай их в своём бланке. Кто первый закроет ряд — тот победитель!
         </p>
+        <a href="#play" className="inline-block bg-white text-black px-8 py-3 text-sm uppercase tracking-wide font-semibold hover:bg-neutral-200 transition-colors duration-300 cursor-pointer">
+          Начать игру
+        </a>
       </div>
     </div>
   );
